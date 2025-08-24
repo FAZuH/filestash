@@ -2,7 +2,7 @@ version: '2'
 services:
   app:
     container_name: filestash
-    image: machines/filestash:latest
+    image: ghcr.io/fazuh/filestash:latest
     restart: always
     environment:
     - APPLICATION_URL=
